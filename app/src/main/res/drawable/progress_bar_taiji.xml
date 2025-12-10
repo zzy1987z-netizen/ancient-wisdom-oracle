@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景圆环（坤） -->
+    <item>
+        <shape
+            android:innerRadiusRatio="3"
+            android:shape="ring"
+            android:thicknessRatio="12"
+            android:useLevel="false">
+            <solid android:color="#4DFFFFFF" /> <!-- 半透明白色作为底色 -->
+        </shape>
+    </item>
+    <!-- 进度圆环（乾） -->
+    <item>
+        <rotate
+            android:fromDegrees="270"
+            android:toDegrees="270">
+            <shape
+                android:innerRadiusRatio="3"
+                android:shape="ring"
+                android:thicknessRatio="12"
+                android:useLevel="true">
+                <solid android:color="@android:color/white" /> <!-- 不透明白色作为进度条颜色 -->
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

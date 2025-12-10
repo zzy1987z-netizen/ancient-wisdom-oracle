@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/retractable_bar_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true">
+
+    <LinearLayout
+        android:id="@+id/ll_bar_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent" 
+        android:orientation="horizontal"
+        android:paddingTop="24dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:id="@+id/btn_global_mute"
+            style="@style/BarButton"
+            android:text="音" />
+
+        <TextView
+            android:id="@+id/btn_global_favorites"
+            style="@style/BarButton"
+            android:text="藏" />
+
+        <TextView
+            android:id="@+id/btn_global_home"
+            style="@style/BarButton"
+            android:text="首页" />
+
+        <TextView
+            android:id="@+id/btn_global_donate_placeholder"
+            style="@style/BarButton"
+            android:text="待开放" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_bar_handle"
+        android:layout_width="50dp"
+        android:layout_height="5dp"
+        android:layout_alignTop="@id/ll_bar_buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/bar_handle" />
+
+</RelativeLayout>

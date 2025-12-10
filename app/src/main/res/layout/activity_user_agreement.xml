@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserAgreementActivity">
+
+    <!-- 请在这里替换为您自己的背景图片, 例如 @drawable/your_background -->
+    <ImageView
+        android:id="@+id/iv_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@android:color/black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_marginBottom="48dp"
+        android:background="#80000000">
+
+        <!-- 添加的标题 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:text="用户协议与隐私政策"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="8" 
+            android:scrollbars="vertical"
+            android:text="欢迎使用吕祖灵签！\n\n我们非常重视您的隐私。请您务必审慎阅读、充分理解“用户协议”和“隐私政策”各条款。\n\n您同意并点击“接受”按钮，即意味着您完全接受本协议项下的全部条款。\n\n最后，请谨记：弘扬传统文化，切勿封建迷信。"
+            android:textColor="@android:color/white"
+            android:lineSpacingMultiplier="1.2" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp">
+
+            <CheckBox
+                android:id="@+id/cb_agreement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="我已阅读并同意用户协议和隐私政策"
+                android:textColor="@android:color/white"
+                android:buttonTint="@android:color/white"/>
+
+            <!-- 醒目的粗红色下划线 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@android:color/holo_red_dark" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_enter_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:enabled="false"
+            android:text="同意并进入" />
+
+    </LinearLayout>
+
+</RelativeLayout>

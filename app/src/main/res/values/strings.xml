@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">吕祖古签</string>
+
+    <!-- Default template strings, DO NOT REMOVE -->
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">下一章</string>
+    <string name="previous">上一章</string>
+
+    <!-- Generic -->
+    <string name="back">返回</string>
+    <string name="share">分享</string>
+    <string name="skip">跳过</string>
+    <string name="next_chapter">下一章</string>
+    <string name="start_requesting_sign">开始求签</string>
+
+    <!-- WelcomeActivity -->
+    <string name="agree_and_continue">我已阅读并同意《用户协议与隐私政策》</string>
+    <string name="confirm_and_enter">确认进入</string>
+    <string name="user_agreement_full_text"><![CDATA[
+        欢迎使用【吕祖古签】！本应用致力于为您提供一个融合传统文化与现代科技的体验，同时高度重视并保护您的个人隐私。<br/><br/>
+        <b>1. 服务说明</b><br/>
+        本应用提供的求签、解签等内容源于中国传统文化典籍，旨在为用户提供文化学习与参考。所有内容仅供娱乐和参考，请勿用于任何形式的迷信活动。<br/><br/>
+        <b>2. 隐私政策</b><br/>
+        本应用承诺不会收集或存储您的任何可识别个人信息。应用内的收藏功能所产生的数据将完全存储在您的设备本地，本应用无法访问或上传这些数据。本应用不会追踪您的使用行为，也不会与任何第三方分享数据。<br/><br/>
+        <b>3. 用户行为准则</b><br/>
+        您在使用本应用时，应遵守国家法律法规，并尊重传统文化。禁止利用本应用进行任何违法或封建迷信活动。<br/><br/>
+        <b>4. 免责声明</b><br/>
+        本应用的所有内容，包括签诗、签文、注解等，仅为文化学习和个人娱乐参考，不构成任何建议或指导。对于因使用本应用内容而产生的任何直接或间接后果，本应用概不负责。<br/><br/>
+        本应用坚决倡导科学精神，请您理性看待测试结果。<br/><br/>
+        <b>5. 关于AI技术</b><br/>
+        为了给您带来更独特的视听体验，本应用的部分创意内容（如图片、音频），是在人工智能技术的辅助下完成的。<br/><br/>
+        <b>【特别提示】</b><br/>
+        请您在使用本应用前，仔细阅读并充分理解本《用户协议与隐私政策》。当您勾选下方的“同意”选项并继续使用时，即表示您已完全理解并同意本协议的全部内容。
+    ]]></string>
+
+
+    <!-- GuideActivity -->
+    <string name="request_a_sign">诚心求签</string>
+    <string name="my_favorites">我的收藏</string>
+    <string name="about_lvzu">关于吕祖</string>
+
+    <string name="guide_title_1">第一章：道缘之始，洞宾何人</string>
+    <string name="guide_content_1">尘世茫茫，缘法深藏。于万千选择之中，您今日与此灵签相遇，这并非一次简单的点击，而是一场您与传统智慧的深度连结。\n\n您或许正春风得意，希望百尺竿头更进一步；或许也正稍感困顿，渴望一盏指路的明灯。无论身处何种境遇，请先放下心中的纷繁。您要知道，此番体验，并非是为求一个既定的“答案”，而是借由这份流传千年的智慧，来开启一次与自己内心的坦诚对话。\n\n为您引路的，是八仙之中，最懂凡人心的纯阳真人——吕洞宾。\n\n他曾是博览群书的儒士，亦是仗剑江湖的侠客；他曾为探求大道而苦，亦曾为点化世人而喜。他深知顺境中的骄矜，亦懂得逆境中的迷惘。这百支灵签，便是他留给每一位有缘人的、开启自我观照的“钥匙”。\n\n那么，这“钥匙”究竟该如何使用？这趟心灵之旅，又将如何开启？\n\n朋友，请翻开下一章。</string>
+    
+    <string name="guide_title_2">第二章：卜筮之源，问道于天</string>
+    <string name="guide_content_2">在文字尚未诞生，文明尚处蒙昧的远古，我们的先祖便已开始思考一个永恒的命题：我与这变幻莫测的天地，究竟是何关系？\n\n他们观察星辰的轨迹，聆听风雨的呼吸，解读龟甲的裂纹，卜算蓍草的离合。这并非是向虚无的神明祈求恩赐，而是试图在万物的变幻之中，探寻那永恒不变的宇宙规律——“道”。\n\n“求签”，正是这千年智慧最平易近人的一种延续。它并非迷信，而是一种朴素的宇宙观：相信天地有大美而不言，相信万物皆有其内在的秩序与节奏。\n\n您今日所求之签，看似偶然，实则不然。它是在提醒您，暂且放下头脑中繁复的计算与权衡，转而用您的“心”，去与这天地万物进行一次最直接、最真诚的共鸣。\n\n而要让这次共鸣的“信号”足够清晰，我们需要一个仪式。\n\n朋友，请翻开下一章，我们一同【焚香】。</string>
+    
+    <string name="guide_title_3">第三章：何以为“占”，何以为“卜”？</string>
+    <string name="guide_content_3">远古的先民，是如何“看见”那些看不见的东西的？\n\n他们并非拥有神力，而是掌握了一门独特的艺术——“占”。“占”的古字，上面是“卜”，下面是“口”，意为观察裂纹，并用言语将其中的征兆解读出来。“卜”本身，就是龟甲被灼烧时，那一声清脆的爆裂声。\n\n这是一种极其高明的智慧。它试图告诉我们：宇宙间所有看似孤立的事件，无论是大到星辰的运转，还是小到一次偶然的爆裂，其背后都遵循着同一个深不可测的、被称之为“道”的规律。\n\n因此，通过解读一个微小的“偶然”，我们便有机会一窥那宏大的“必然”。\n\n“求签”，正是这门古老艺术最亲切、最简便的一种传承。它相信，您在某一刻、怀着某一种心情、摇出的那支签，绝非偶然。\n\n那么，摇出这支签后，我们又该如何面对它？\n\n朋友，请翻开下一章。</string>
+
+    <string name="guide_title_4">第四章：得失之间，勘破心魔</string>
+    <string name="guide_content_4">人为何要求签？求的，真的是一个关于未来的、确切的“答案”吗？\n\n不尽然。\n\n众生之苦，大多源于内心的“求不得”与“已失去”。而求签这一行为，恰恰是把这份内心的焦灼与期盼，郑重地寄托于一个神圣的仪式之上。在这个过程中，无论最终得失如何，我们都能获得片刻的安宁与解脱。它是一种高明的心理慰藉，也是一次深刻的情感转移。\n\n因此，不妨这样看待：求签的真正价值，不在于签文本身，而在于您从“想要求签”到“求得此签”的整个心路历程。\n\n您在焚香时的虔诚，在摇签前的期待，在出签后的忐忑……这所有的情绪，如同一面澄澈的镜子，映照出您当下最真实、最不加掩饰的欲望和恐惧。\n\n看清它，便是“解签”的开始。\n\n那么，对于这面“镜子”中映出的景象，我们又该如何解读？\n\n朋友，请翻开下一章。</string>
+
+    <string name="guide_title_5">第五章：一事一问，敬天知命</string>
+    <string name="guide_content_5">在您即将开启这趟心灵之旅前，请允许我分享最后一个、也是最重要的心法：“一事不烦二主”。\n\n自古以来，无论是卜筮或是求签，都遵循着一个不成文的规矩：一事一问，非大事不问，非疑难不问。\n\n为什么？\n\n因为真正的“解”，并非来自签文，而是在您求签前的深思熟虑、求签时的虔诚专注、以及求签后的身体力行。它是一个完整的、有时甚至长达数年的过程。\n\n如果为同一件事反复求问，或是为鸡毛蒜皮的小事随意求问，那便不是“问道于天”，而是将神明当作了满足私欲的仆役，这便失了“敬”。\n\n失了“敬”，便失了“诚”，其结果自然也就失了“准”。\n\n当然，若是作为一种文化尝鲜，或是纯粹的娱乐体验，自然不必拘泥。但若您心中确有疑难，那么，请珍视您每一次求签的机会。\n\n现在，我们已万事俱备。\n\n朋友，请翻开下一章，我们将正式解读您求得的这份“天启”。</string>
+
+    <string name="guide_title_6">第六章：签文非命，道在自身</string>
+    <string name="guide_content_6">那么，我们最终从签文中求得的，究竟是什么？\n\n既非富贵，亦非穷通；既非坦途，亦非绝境。\n\n我们求得的，是看清事物本来面目的那一份“定力”。\n\n吕祖的智慧，从来不是让您放弃思考、被动等待。恰恰相反，它是在千变万化的签文中，引导您看清事物的本质，然后用一种更澄澈、更平和的心态，去做出自己的选择，去走自己的路。\n\-签，不是“命令”，而是“镜鉴”。\n\n一支上上签，并非预示您可高枕无忧，而是提醒您此刻正处运势之巅，更应谦卑行事，积德行善。\n\n一支下下签，更非宣判您将厄运临头，而是如良医切脉，精准地指出您当下的困境与心结所在，为您提供一个反思、调整、避险的契机。\n\n运，可转；命，可改。\n\n真正的“解”，不在签文，而在您的“行”。\n\n而真正的“功德”，则在于将这份智慧分享给更多需要它的人。\n\n现在，请启程。</string>
+    
+    <string name="guide_title_image">纯阳祖师</string>
+
+    <!-- PreIncenseActivity -->
+    <string name="pre_incense_prompt">心诚则灵，请先静心、燃香、祝祷，以求天人感应。</string>
+    <string name="start_incense_burning">开始燃香</string>
+
+    <!-- IncenseActivity -->
+    <string name="incense_burning_prayer">燃香祝祷，静待天机...</string>
+    <string name="incense_is_burning">燃香中...</string>
+
+    <!-- ShakeActivity -->
+    <string name="shake_the_cup">摇动签筒</string>
+    <string name="shake_the_cup_with_retry_count">摇动签筒 (已重摇: %d次)</string>
+    <string name="sensing_the_divine">感应天机...</string>
+    <string name="three_chances_up">三次机缘已到，道法自然...</string>
+    <string name="start_shaking">开始摇签</string>
+
+    <!-- ResultActivity -->
+    <string name="click_to_interpret">点击解签</string>
+    <string name="favorite">收藏</string>
+    <string name="is_favorite">已收藏</string>
+    <string name="added_to_favorites">已加入收藏</string>
+    <string name="already_in_favorites">您已收藏过此签</string>
+    <string name="share_feature_in_development">分享功能正在设计中...</string>
+    
+    <!-- 关键修复：使用最终确定的、完美对称的文本 -->
+    <string name="promote_culture_no_superstition">弘扬传统文化，请勿封建迷信</string>
+
+    <string name="remove_favorite">取消收藏</string>
+    <string name="back_to_directory">返回目录</string>
+
+</resources>

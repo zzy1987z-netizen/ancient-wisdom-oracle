@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 基础主题 -->
+    <style name="Base.Theme.LZLQ" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- 默认主题 -->
+    <style name="Theme.LZLQ" parent="Base.Theme.LZLQ" />
+
+    <!-- 关键新增：创建一个专用的全屏主题 -->
+    <style name="Theme.LZLQ.Fullscreen" parent="Theme.LZLQ">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

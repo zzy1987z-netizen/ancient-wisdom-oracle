@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 一个舒适的、类似书页的淡米色 -->
+    <solid android:color="#FFFBEEC1" /> 
+    <corners android:radius="12dp" />
+</shape>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/draw_success_placeholder" />
+
+    <LinearLayout
+        android:id="@+id/ll_result_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <Button android:id="@+id/btn_result_favorite" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:background="@drawable/button_background_bright" android:textColor="@android:color/black" android:text="收藏" />
+        <Button android:id="@+id/btn_result_share" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:background="@drawable/button_background_bright" android:textColor="@android:color/black" android:text="分享" />
+        <Button android:id="@+id/btn_result_back" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:background="@drawable/button_background_bright" android:textColor="@android:color/black" android:text="返回" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@id/ll_result_buttons"
+        android:gravity="center_horizontal"
+        android:paddingTop="140dp">
+
+        <!-- 关键修复：将签诗改为带有亮色光晕的黑色字体 -->
+        <com.example.lzlq.TypewriterTextView
+            android:id="@+id/tv_poem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2" />
+
+        <Button
+            android:id="@+id/btn_interpret"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_background_rect"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="解签" />
+
+        <ScrollView
+            android:id="@+id/sv_full_text_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/background_book_page"
+            android:visibility="gone">
+
+            <com.example.lzlq.TypewriterTextView
+                android:id="@+id/tv_full_interpretation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:textColor="#1B1B1B"
+                android:textSize="16sp" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

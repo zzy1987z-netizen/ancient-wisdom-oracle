@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <VideoView
+        android:id="@+id/vv_incense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/iv_incense_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/incense_burner" />
+
+    <!-- 关键修复：使用带有圆形背景的TextView实现“跳过”按钮 -->
+    <TextView
+        android:id="@+id/btn_skip_incense_styled"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/button_background_circle"
+        android:gravity="center"
+        android:text="跳"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:shadowColor="#FFC107"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="12" />
+
+</FrameLayout>

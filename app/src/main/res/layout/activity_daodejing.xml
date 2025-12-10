@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaodejingActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/draw_success_placeholder" />
+
+    <com.example.lzlq.TypewriterTextView
+        android:id="@+id/tv_daodejing_chapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="32dp"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#332A0E"
+        android:shadowColor="#FFD700"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2" />
+
+    <!-- 关键修复：使用最终确定的“行”字 -->
+    <TextView
+        android:id="@+id/btn_skip_daodejing_styled"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/button_background_circle"
+        android:gravity="center"
+        android:text="行"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:shadowColor="#FFC107"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="12" />
+
+</RelativeLayout>

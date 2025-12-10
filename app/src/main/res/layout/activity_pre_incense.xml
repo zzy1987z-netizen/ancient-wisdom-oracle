@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".PreIncenseActivity">
+
+    <VideoView
+        android:id="@+id/vv_incense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:id="@+id/rl_pre_incense_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/incense_burner" />
+
+        <!-- “启”字按钮 -->
+        <TextView
+            android:id="@+id/btn_pray_styled"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="110dp"
+            android:background="@drawable/button_background_circle"
+            android:gravity="center"
+            android:text="启"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:shadowColor="#FFC107"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="12"/>
+
+    </RelativeLayout>
+
+    <!-- 关键新增：“渡”字按钮，默认隐藏 -->
+    <TextView
+        android:id="@+id/btn_skip_styled"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/button_background_circle"
+        android:gravity="center"
+        android:text="渡"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:shadowColor="#FFC107"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="12"
+        android:visibility="gone"
+        android:alpha="0"/>
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- 关键修改：应用全局使用我们新的全屏主题 -->
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LZLQ.Fullscreen">
+
+        <activity android:name=".WelcomeActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".GuideActivity" />
+        <activity android:name=".PreIncenseActivity" />
+        <activity android:name=".IncenseActivity" />
+        <activity android:name="com.example.lzlq.ShakeActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".DaodejingActivity" />
+        <activity android:name=".FavoritesActivity" />
+        <!-- 下面这两个Activity已被废弃，但暂时保留在Manifest中以防万一 -->
+        <activity android:name=".FavoriteDetailActivity" android:enabled="false" />
+        <activity android:name=".DrawSuccessActivity" android:enabled="false" />
+        <activity android:name=".DrawFailActivity" />
+
+    </application>
+
+</manifest>

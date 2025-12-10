@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <VideoView
+        android:id="@+id/vv_shake_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:id="@+id/rl_shake_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shake_static" />
+
+        <!-- 关键修复：使用“卜”字作为我们最终的“龙眼” -->
+        <TextView
+            android:id="@+id/btn_shake_styled"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="110dp"
+            android:background="@drawable/button_background_circle"
+            android:gravity="center"
+            android:text="卜"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:shadowColor="#FFC107"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="12" />
+            
+    </RelativeLayout>
+
+    <!-- “心诚则灵” 水印 -->
+    <TextView
+        android:id="@+id/tv_watermark_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="58dp"
+        android:background="#DAA520"
+        android:paddingStart="12dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="8dp"
+        android:text="心诚则灵"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</FrameLayout>

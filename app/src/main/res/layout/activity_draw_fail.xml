@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrawFailActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_main" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/background_book_page"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <com.example.lzlq.TypewriterTextView
+            android:id="@+id/tv_fail_poem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#332A0E"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- 关键修复：使用最终确定的“缘”字 -->
+    <TextView
+        android:id="@+id/btn_continue_from_fail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/button_background_circle"
+        android:gravity="center"
+        android:text="缘"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:shadowColor="#FFC107"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="12" />
+
+</RelativeLayout>
